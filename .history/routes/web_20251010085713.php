@@ -11,7 +11,7 @@ Route::get('/', function () {
 })->name('home');  
 
 Route::get('/dashboard', [StudentController:: class, 'index'])->name('dashboard');
-Route::post('/students', [StudentController:: class, 'store'])->name('students.store');
+Route::
     
 Route::middleware(['auth'])->group(function () {
     Route::redirect('settings', 'settings/profile');

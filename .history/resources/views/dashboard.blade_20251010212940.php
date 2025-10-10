@@ -4,7 +4,7 @@
 
         {{-- Success Message --}}
         @if (session('success'))
-            <div class="rounded-lg bg-green-100 p-4 text-sm text-green-700">
+            <div class="rounded-lg bg-green-5 p-4 text-sm text-green-700">
                 {{ session('success') }}
             </div>
         @endif
